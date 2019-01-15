@@ -14,7 +14,7 @@ class Bear
 
   def eat_from(river)
     fish_being_ate = river.lose_fish
-    @stomach << fish_being_ate.name
+    @stomach << fish_being_ate
   end
 
   def roar
